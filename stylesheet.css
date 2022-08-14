@@ -1,0 +1,64 @@
+html {
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+}
+
+header {
+    background-color: rgb(244, 243, 243);
+    max-width: 960px;
+    min-width: 640px;
+}
+
+header::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+nav>li {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+header img {
+    display: block;
+    float: right;
+    width: 30%;
+}
+
+p {
+    float: left;
+    width: 60%;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.w3-row-padding {
+    text-align: left;
+}
+
+footer{
+    background-color:rgb(244, 243, 243);
+    text-align: center;
+
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
